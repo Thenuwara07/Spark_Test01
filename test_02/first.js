@@ -1,0 +1,13 @@
+//reverse string function
+function reverseString(str) {
+  let reversed = "";
+  for (let i = str.length - 1; i >= 0; i--) {
+    reversed += str[i];
+  }
+  return reversed;
+}
+
+
+  //assign reversed string to the variable
+  const reversedString = reverseString("input");
+  console.log("Reversed String:", reversedString);
