@@ -95,7 +95,7 @@ const Registration = () => {
           </button>
           <div className="text-center">
             <p>
-              Don't have an account?{" "}
+              Do have an account?{" "}
               <a href="/" className="text-blue-800">
                 Login
               </a>
